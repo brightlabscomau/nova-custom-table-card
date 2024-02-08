@@ -1,5 +1,7 @@
 # Nova Custom Table Card
 
+Forked with compatibility issues fixed
+
 ## Simple Nova Card for Custom Tables
 
 Simple card table with data of you choice.
