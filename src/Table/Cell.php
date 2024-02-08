@@ -4,6 +4,7 @@ namespace Mako\CustomTableCard\Table;
 
 use JsonSerializable;
 use Laravel\Nova\Makeable;
+use ReturnTypeWillChange;
 
 class Cell implements JsonSerializable
 {
@@ -52,7 +53,7 @@ class Cell implements JsonSerializable
         return $this;
     }
 
-    public function jsonSerialize()
+    #[ReturnTypeWillChange] public function jsonSerialize()
     {
         return [
             'data'      =>  $this->data,
